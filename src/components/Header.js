@@ -16,37 +16,39 @@ const Header = () => {
       <Toolbar>
         <Typography variant='h4'>Blog-With-Me</Typography>
 
-        { isLoggedIn && 
+        { isLoggedIn && (
         <Box display="flex" marginLeft="auto" marginRight="auto">
           <Tabs textColor="inherit" value={value} onChange={(e, val)=>setValue(val)}>
             <Tab LinkComponent={Link} to="/blogs" label="Blogs"/>
             <Tab LinkComponent={Link} to="/myBlogs" label="My Blogs"/>
             <Tab LinkComponent={Link} to="/blogs/create" label="Create Blogs"/>
           </Tabs>
-        </Box>}
+        </Box>)}
 
         <Box display="flex" marginLeft="auto">
 
-          { !isLoggedIn &&
-          <>
-          <Button 
-            LinkComponent={Link} 
-            to="/auth" 
-            variant= "contained" 
-            sx={{margin: 1, borderRadius: 10}} 
-            color="primary"
-            >Login
-          </Button>
+          { !isLoggedIn && (
+            <>
+              {" "}
+              <Button 
+                LinkComponent={Link} 
+                to="/auth" 
+                variant= "contained" 
+                sx={{margin: 1, borderRadius: 10}} 
+                color="primary"
+                >Login
+              </Button>
 
-          <Button 
-            LinkComponent={Link} 
-            to="/auth" 
-            variant= "contained" 
-            sx={{margin: 1, borderRadius: 10}} 
-            color="primary"
-            >Register
-          </Button>
-          </>}
+              <Button 
+                LinkComponent={Link} 
+                to="/auth" 
+                variant= "contained" 
+                sx={{margin: 1, borderRadius: 10}} 
+                color="primary"
+                >Register
+              </Button>
+            </>
+          )}
 
           { isLoggedIn && (
           <Button
