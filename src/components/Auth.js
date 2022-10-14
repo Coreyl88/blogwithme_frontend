@@ -26,7 +26,7 @@ const Auth = () => {
   }
 
   const sendRequest = async (type="login") => {
-    const res = await axios.post(`http://localhost:4000/api/user/${type}`, {
+    const res = await axios.post(`process.env.REACT_APP_API_KEY/api/user/${type}`, {
       name: inputs.name,
       email: inputs.email,
       password: inputs.password,
