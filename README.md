@@ -38,3 +38,4 @@ Blog-With-Me is a public blog that allows you to create your own account, add, u
 
 
 ### ERD:<a name="erd"></a>
+![Screen Shot 2022-10-16 at 6 37 35 PM](https://user-images.githubusercontent.com/109244177/196064589-59197aee-3c82-4459-b1df-1def653527ae.png)
