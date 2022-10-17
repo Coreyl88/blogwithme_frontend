@@ -12,7 +12,7 @@ const Blog = ({ title, description, image, userName, isUser, id }) => {
         navigate(`/myBlogs/${id}`)
     };
     const deleteRequest = async () => {
-        const res = await axios.delete(`http://localhost:4000/api/blog/${id}`);
+        const res = await axios.delete(`process.env.REACT_APP_API_URL/blog/${id}`);
         const data = await res.data;
         return data;
     };
