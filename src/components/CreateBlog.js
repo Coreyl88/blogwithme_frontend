@@ -22,7 +22,7 @@ const CreateBlog = () => {
   };
 
   const sendRequest = async () => {
-    const res = await axios.post("process.env.REACT_APP_API_URL/blog/create", {
+    const res = await axios.post(`${process.env.REACT_APP_API_URL}/blog/create`, {
       title: inputs.title,
       description: inputs.description,
       image: inputs.image,

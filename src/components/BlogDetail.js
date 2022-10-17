@@ -22,7 +22,7 @@ const BlogDetail = () => {
   };
 
   const getDetails = async () => {
-    const res = await axios.get(`process.env.REACT_APP_API_URL/blog/${id}`).catch(err => console.log(err));
+    const res = await axios.get(`${process.env.REACT_APP_API_URL}/blog/${id}`).catch(err => console.log(err));
     const data = await res.data
     return data
   };
@@ -35,7 +35,7 @@ const BlogDetail = () => {
   }, [id])
 
   const sendRequest = async () => {
-    const res = await axios.put(`process.env.REACT_APP_API_URL/blog/update/${id}`, {
+    const res = await axios.put(`${process.env.REACT_APP_API_URL}/blog/update/${id}`, {
       title: inputs.title,
       description: inputs.description,
     }).catch(err => console.log(err));
