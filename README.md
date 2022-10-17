@@ -6,14 +6,13 @@
 1. [Website Link](#websitelink)
 2. [Project Description](#projectdescription)  
 3. [MVP & Strech Goals](#mvpgoals)
-4. [More Strech Features Wanted](#morestrechfeatureswanted)
-5. [Wireframe](#wireframe)
-6. [Screenshots](#screenshots)     
-7. [ERD](#erd)
+4. [Wireframe](#wireframe)
+5. [Screenshots](#screenshots)     
+6. [ERD](#erd)
 
 ---
 ### [Frontend](https://enchanting-sable-0bc6dd.netlify.app)<a name="websitelink"></a>
-### [Backend]()<a name="websitelink"></a>
+### [Backend](https://blogwithme-backend.herokuapp.com/api/blog)<a name="websitelink"></a>
 ---
 ### Project Description:<a name="projectdescription"></a>
 Blog-With-Me is a public blog that allows you to create your own account, add, update or delete any type of blog you the user wants to have. 
