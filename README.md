@@ -1,6 +1,6 @@
 # GA SEI725 Capstone
 ---
-
+![Screen Shot 2022-10-17 at 5 42 11 AM](https://user-images.githubusercontent.com/109244177/196157777-5188de58-0d60-41c9-8618-916077f85059.png)
 ---
 ##### Table of Contents
 1. [Website Link](#websitelink)
