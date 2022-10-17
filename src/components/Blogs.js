@@ -12,7 +12,7 @@ const Blogs = () => {
   };
 
   useEffect(() => {
-    sendRequest().then(data => setBlogs(data.blogs));
+    sendRequest();
   },[])
   console.log(blogs);
   return (
