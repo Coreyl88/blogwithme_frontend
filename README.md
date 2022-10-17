@@ -29,9 +29,12 @@ Blog-With-Me is a public blog that allows you to create your own account, add, u
 * Edit users and their information
 
 ### Wireframe:<a name="wireframe"></a>
+![Screen Shot 2022-10-16 at 6 18 27 PM](https://user-images.githubusercontent.com/109244177/196064584-a8ad8e0c-5df7-4832-9c84-54cc22bb7c42.png)
 
+![Screen Shot 2022-10-16 at 6 18 07 PM](https://user-images.githubusercontent.com/109244177/196064587-3c05e1cc-0336-48fe-bcb6-fa38f4810687.png)
 
 ### Screenshots:<a name="screenshots"></a>
 
 
 ### ERD:<a name="erd"></a>
+![Screen Shot 2022-10-16 at 6 37 35 PM](https://user-images.githubusercontent.com/109244177/196064589-59197aee-3c82-4459-b1df-1def653527ae.png)
