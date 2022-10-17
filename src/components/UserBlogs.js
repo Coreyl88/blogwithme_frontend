@@ -13,7 +13,7 @@ const UserBlogs = () => {
   }
 
   useEffect(() => {
-    sendRequest();
+    sendRequest().then((data)=>setUser(data.user))
   }, [])
   console.log(user)
   
